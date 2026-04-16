@@ -111,3 +111,28 @@ nav{
   display: flex;
   align-items: flex-start;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+}
+.education-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.school-logo {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
